@@ -60,7 +60,6 @@ const stylesheet = StyleSheet.create({
     height: 52,
     color: "#8e77ff",
     fontSize: 25,
-    fontFamily: "Arial",
     fontWeight: "bold"
   },
   goForYourText : { 
@@ -69,7 +68,6 @@ const stylesheet = StyleSheet.create({
     height: 52,
     color: "#000000",
     fontSize: 22,
-    fontFamily: "Arial",
     fontWeight: "bold"
   },
   moneyGoals : { 
@@ -78,21 +76,18 @@ const stylesheet = StyleSheet.create({
     height: 52,
     color: "#8e77ff",
     fontSize: 22,
-    fontFamily: "Arial",
     fontWeight: "bold"
   },
   whiteText: {
     textAlign: 'center',
     width: 273,
     color: "#ffffff",
-    fontFamily: "Arial",
     fontWeight: "bold"
   },
   purpleText: {
     textAlign: 'center',
     width: 273,
     color: "#8e77ff",
-    fontFamily: "Arial",
     fontWeight: "bold"
   },
   Tenant: {
