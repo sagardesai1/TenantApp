@@ -8,7 +8,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 // Screens
 import HomeScreen from './screens/HomeScreen';
 import PhoneScreen from './screens/PhoneScreen';
-import SettingsScreen from './screens/SettingsScreen';
+import SignInScreen from './screens/SignInScreen';
 import ChartsScreen from './screens/ChartsScreen';
 
 const Tab = createBottomTabNavigator();
@@ -24,7 +24,7 @@ function MainContainer() {
       >
       <Tab.Screen
         name="Home"
-        component={SettingsScreen}
+        component={SignInScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="home" color={color} size={size} />
